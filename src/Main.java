@@ -8,15 +8,15 @@ class Main
 	{
 		//Here is where u have to enter the Sudoku puzzle. 0 represents the blanks.
 		int[][] board = {
-				{7, 0, 2, 0, 5, 0, 6, 0, 0},
-				{0, 0, 0, 0, 0, 3, 0, 0, 0},
-				{1, 0, 0, 0, 0, 9, 5, 0, 0},
-				{8, 0, 0, 0, 0, 0, 0, 9, 0},
-				{0, 4, 3, 0, 0, 0, 7, 5, 0},
-				{0, 9, 0, 0, 0, 0, 0, 0, 8},
-				{0, 0, 9, 7, 0, 0, 0, 0, 5},
-				{0, 0, 0, 2, 0, 0, 0, 0, 0},
-				{0, 0, 7, 0, 4, 0, 2, 0, 3}
+				{5, 6, 0, 0, 2, 0, 0, 0, 0},
+				{0, 0, 2, 0, 0, 0, 8, 0, 9},
+				{8, 0, 0, 7, 0, 0, 0, 2, 0},
+				{0, 1, 0, 5, 0, 0, 6, 0, 0},
+				{0, 0, 0, 0, 0, 0, 0, 0, 0},
+				{0, 0, 3, 0, 0, 6, 0, 1, 0},
+				{0, 9, 0, 0, 0, 4, 0, 0, 5},
+				{7, 0, 5, 0, 0, 0, 2, 0, 0},
+				{0, 0, 0, 0, 3, 0, 0, 4, 8}
 		};
 		System.out.println("Sudoku Puzzle:");
 		print(board);
@@ -40,7 +40,7 @@ class Main
 		{
 			for(int column = 0; column < size; column++)
 			{
-				System.out.print(board[row][column]);
+				System.out.print(board[row][column] + " ");
 			}
 			
 			System.out.println();
